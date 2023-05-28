@@ -63,6 +63,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'UTS PENDATA_Garvin_210411100061';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="JARINGAN SYARAF TIRUAN" href="jaringansaraf.html" />
     <link rel="prev" title="KLASIFIKASI NAIVE BAYES" href="Tugas2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -158,6 +159,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="Tugas1.html">POSTGRESQL</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Tugas2.html">KLASIFIKASI NAIVE BAYES</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#"><strong>UTS PENAMBANGAN DATA DENGAN NAIVE BAYES DAN KNN UNTUK KANGKER PAYUDARA</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="jaringansaraf.html"><strong>JARINGAN SYARAF TIRUAN</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="DT.html"><strong>DECISION TREE DATA WEATHER</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="PCA.html">Principal Component Analysis: PCA</a></li>
+
 </ul>
 
     </div>
@@ -390,7 +395,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-361044d9-2122-4e2a-b893-b993afeff78b">
+  <div id="df-f5e36b06-0807-4775-9b8f-5aab8788030a">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -491,7 +496,7 @@ document.write(`
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-361044d9-2122-4e2a-b893-b993afeff78b')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-f5e36b06-0807-4775-9b8f-5aab8788030a')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -542,12 +547,12 @@ document.write(`
 
       <script>
         const buttonEl =
-          document.querySelector('#df-361044d9-2122-4e2a-b893-b993afeff78b button.colab-df-convert');
+          document.querySelector('#df-f5e36b06-0807-4775-9b8f-5aab8788030a button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-361044d9-2122-4e2a-b893-b993afeff78b');
+          const element = document.querySelector('#df-f5e36b06-0807-4775-9b8f-5aab8788030a');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -645,7 +650,7 @@ The categorical variables are :
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-0995fe6b-c46c-4328-9c63-24d2257b77f2">
+  <div id="df-cbb76056-623b-478b-95b0-7086867b02bb">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -734,7 +739,7 @@ The categorical variables are :
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-0995fe6b-c46c-4328-9c63-24d2257b77f2')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-cbb76056-623b-478b-95b0-7086867b02bb')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -785,12 +790,12 @@ The categorical variables are :
 
       <script>
         const buttonEl =
-          document.querySelector('#df-0995fe6b-c46c-4328-9c63-24d2257b77f2 button.colab-df-convert');
+          document.querySelector('#df-cbb76056-623b-478b-95b0-7086867b02bb button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-0995fe6b-c46c-4328-9c63-24d2257b77f2');
+          const element = document.querySelector('#df-cbb76056-623b-478b-95b0-7086867b02bb');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -937,7 +942,7 @@ The numerical variables are : [&#39;deg-malig&#39;, &#39;irradiat&#39;]
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-fd659166-e1b3-471a-bb5a-bc8546553750">
+  <div id="df-8fff2c40-9b66-4374-bf0d-9b7a549b955a">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -990,7 +995,7 @@ The numerical variables are : [&#39;deg-malig&#39;, &#39;irradiat&#39;]
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-fd659166-e1b3-471a-bb5a-bc8546553750')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8fff2c40-9b66-4374-bf0d-9b7a549b955a')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -1041,12 +1046,12 @@ The numerical variables are : [&#39;deg-malig&#39;, &#39;irradiat&#39;]
 
       <script>
         const buttonEl =
-          document.querySelector('#df-fd659166-e1b3-471a-bb5a-bc8546553750 button.colab-df-convert');
+          document.querySelector('#df-8fff2c40-9b66-4374-bf0d-9b7a549b955a button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-fd659166-e1b3-471a-bb5a-bc8546553750');
+          const element = document.querySelector('#df-8fff2c40-9b66-4374-bf0d-9b7a549b955a');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -2236,6 +2241,15 @@ The numerical variables are : [&#39;deg-malig&#39;, &#39;irradiat&#39;]
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">KLASIFIKASI NAIVE BAYES</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="jaringansaraf.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><strong>JARINGAN SYARAF TIRUAN</strong></p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div></div>
   
